@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starting point"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/starting_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ending point"
+        android:textSize="20dp"
+        android:padding="2dp"/>
+
+    <EditText
+        android:id="@+id/ending_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the type of trip"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_trip"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+                android:id="@+id/oneway_trip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="One way trip"
+                android:textSize="20dp" />
+
+        <RadioButton
+                android:id="@+id/round_trip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Round trip"
+                android:textSize="20dp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select date of journey"
+        android:textSize="20dp"
+        android:padding="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="5dp"
+        android:id="@+id/current_date"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_id"
+        android:text="Date"
+        android:background="#00FEFE"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select time of journey"
+        android:textSize="20dp"
+        android:padding="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/current_time"
+        android:textSize="20dp"
+        android:padding="2dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_id"
+        android:text="Time"
+        android:background="#00FEFE"
+        android:textColor="#000000"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_driver"
+        android:text="Select driver"
+        android:background="#00FEFE"
+        android:textColor="#000000" />
+    
+
+</android.support.v7.widget.LinearLayoutCompat>

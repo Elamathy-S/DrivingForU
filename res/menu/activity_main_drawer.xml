@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:background="#000000">
+        <item
+            android:id="@+id/user_login"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="User Login " />
+        <item
+            android:id="@+id/driver_login"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Driver Login" />
+        <item
+            android:id="@+id/user_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="User list" />
+
+        <item
+                android:id="@+id/driver_list"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Driver list" />
+        <item
+                android:id="@+id/new_trip"
+                android:icon="@drawable/ic_menu_send"
+                android:title="New trip" />
+
+    </group>
+</menu>
